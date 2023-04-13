@@ -43,6 +43,9 @@ import org.springframework.security.config.annotation.web.configuration.WebSecur
 import org.springframework.security.config.annotation.web.configurers.ExpressionUrlAuthorizationConfigurer;
 import org.springframework.security.core.userdetails.UserDetailsService;
 import org.springframework.security.crypto.password.NoOpPasswordEncoder;
+/*IMPORTAMOS CLASE*/
+import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
+
 
 /** Security configuration for WebGoat. */
 @Configuration
